@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Indian Cities Quiz App
 
 A simple JavaScript quiz app that presents multiple-choice questions about Indian cities, displays one question at a time, allows answer selection, and shows the correct answer after submission.
@@ -26,3 +27,7 @@ Open `index.html` in your browser.
 
 ## License
 MIT
+=======
+# 11
+07771840
+>>>>>>> 96f8c11bb9dd10f048726b82bec05f1a930e1a19
