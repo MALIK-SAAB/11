@@ -1,21 +1,28 @@
-# Example: Ensure your workflow has proper structure
-name: My Workflow
+name: CI
+
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, master ]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-      - name: Install dependencies
-        run: npm ci
-      - name: Run tests
-        run: npm test
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js (example - adjust for your project)
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies (example)
+      run: |
+        npm ci
+        
+    - name: Run tests (example)
+      run: |
+        npm test
