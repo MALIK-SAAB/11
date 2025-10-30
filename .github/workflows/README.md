@@ -1,5 +1,1 @@
-![CI](https://github.com/MALIK-SAAB/new/actions/workflows/ci.yml/badge.svg)
-
-# 07771840
-
-This repository was created to fulfill a requirement for a pull request task. It contains a simple Python script.
+[![Run Pytest](https://github.com/MALIK-SAAB/11/actions/workflows/pytest.yml/badge.svg)](https://github.com/MALIK-SAAB/11/actions/workflows/pytest.yml)
